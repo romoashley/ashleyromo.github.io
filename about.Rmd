@@ -6,17 +6,91 @@ output:
     toc_float: true
 ---
 
-### EDUCATION
+### Education
 **Columbia University, Mailman School of Public Health** (May 2024)
-Master of Public Health in Epidemiology
+Master of Public Health in Epidemiology,
 *Applied Biostatistics and Data Science Certificate*	
         
 **University of California, Berkeley** (May 2021)
-Bachelor of Arts
+Bachelor of Arts,
 *Public Health, Molecular and Cell Biology (Neurobiology)*
 
-### WORK EXPERIENCE
+### Work Experience
+**UC Davis Health, U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk (U.S. POINTER)**
 
+*Bilingual Assistant Clinical Research Coordinator, Sacramento, CA (hybrid) | (07/2021- 08/2022)*
+
+* Created standard operating procedures (SOP) for protocols to streamline workflow and documented processes for staff to improve efficiency
+* Scheduled 80-100 follow up visits, 12-20 Telephone Interview of Cognitive Statues (TICS), and 20-25 medical advisor meetings every month using various and overlapping study coordination calendars
+* Screened over 30 individuals weekly in English and Spanish by critically reviewing medical history, medications, family history, diet, and physical activity to ensure participant meets eligibility for study of being at risk for cognitive decline
+* Presented research study details such as lifestyle interventions to potential participants over the phone during screening calls 
+* Completed and scored TICS to assess individual’s eligibility for the study
+* Interviewed 1-3  participants during clinic visits to complete health event query forms and adverse event forms 
+* Documented and tracked recruitment using various databases (RedCap, StudyPages, EPIC and POINTER website)
+
+**Health Career Connection, City Heights Community Development Corporation (CHCDC)**
+
+*Resident Services Intern, San Diego, CA | 06/2018 - 08/2018*
+
+* Selected to participate in summer internship program and placed in Community Development Corporation
+* Created and completed Family Food Security Survey at 3 affordable housing units in English and Spanish
+* Analyzed survey data using Excel to assess existing food insecurity and the impact of food distribution at the sites
+* Facilitated an academic enrichment after-school program 3 times a week for children in K-4th grade
+* Completed resident services outreach including resident calls for meetings, workshops, and emergency food assistance
+
+**Su Guo Neuroscience Lab, University of California San Francisco**  
+
+*Stanford STEP UP NIDDK, Research Intern, San Francisco, CA (06/2016 - 08/2016)*
+
+* Collected data from behavioral experiments to determine whether larval zebrafish could be classically conditioned 
+* Presented a poster and a powerpoint presentation of research project at the Science Symposium at the National Institute of Health in Bethesda, Maryland
+
+### Volunteer
+
+**Health Leads**
+
+*Program Coordinator, San Pablo, CA (01/2019 - 05/2020)*
+
+* Selected to guide a group of 5-6 health leads advocates by answering their questions, providing support during one-on-one check-ins, and facilitating an hour-long weekly group discussion about a specific agenda 
+* Reviewed my group’s cases to ensure the protocol was being followed and to provide feedback to them the following week
+
+*Health Leads Advocate, San Pablo, CA (01/2018 - 05/2020)*
+
+* Conducted ~10 intakes to assess patients’ needs in English and Spanish and researched resources that fit patients’ goals and eligibility through REACH database to share with patients
+* Worked with 5-8 patients every week to provide support in navigating resource landscape through weekly follow-up calls 
+* Inputted information about individuals’ progress into EPIC database to update Primary Care Providers
+
+### Skills
+
+**Certificates**
+
+* Mental Health First Aid (2018)
+* HIPAA (2023)
+* CITI Social and Behavioral Responsible Conduct of Research (2021)
+* CITI Social and Behavioral Research Best Practices for Clinical Research (2021)
+* CITI Human Subjects Protection Biomed
+* CITI GCP for Clinical Trials with Investigational Drugs and Medical Devices (U.S. FDA Focus)
+* CITI FDA-Regulated Research
+
+**Databases**
+
+* EPIC
+* RedCap
+* StudyPages
+* Scissor
+* Velos
+* Qualtrics
+
+**Programs**
+
+* R
+* SAS
+* Python
+
+**Languages**
+
+* English
+* Spanish 
 
 
 
