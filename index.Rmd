@@ -10,7 +10,7 @@ output:
 
 My name is Ashley Romo. I am a first-generation student at the Mailman School of Public Health in New York City. I am studying Epidemiology, and my certificate is in Applied Biostatistics and Data Science. I completed my Bachelor's of Arts at the University of California, Berkeley where I double majored in Public Health and Molecular and Cell Biology with a concentration in Neurobiology. 
  
- ![](images/grad.jpg)
+ ![](images/nyc.png)
 
 ### SUMMER INTERNSHIP
 This summer I had the opportunity of completing my practicum at Columbia University, Mailman School of Public Health. I worked on the Database Shared Resource Project (DBSR), which is directed by Dr. Jeanine Genkinger. 
