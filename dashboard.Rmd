@@ -30,19 +30,57 @@ data =
     prcp = as.numeric(prcp),
     snow = as.numeric(snow)
   ) |> 
-  filter(year == 2000 | year == 2002 | year == 2004 | 
-           year == 2006 | year == 2008 | year == 2010) |> 
+  filter(year == 2000:2010) |> 
   group_by(year, month) |> 
   summarize(
     mean_prcp = mean(prcp),
     mean_snow = mean(snow),
     mean_tmax = mean(tmax),
     mean_tmin = mean(tmin)
-  )
+  ) |> 
+  mutate(
+    month = case_when(
+       month %in% c("01") ~ "Jan",
+       month %in% c("02") ~ "Feb",
+       month %in% c("03") ~ "Mar",
+       month %in% c("04") ~ "Apr",
+       month %in% c("05") ~ "May",
+       month %in% c("06") ~ "Jun",
+       month %in% c("07") ~ "Jul",
+       month %in% c("08") ~ "Aug",
+       month %in% c("09") ~ "Sep",
+       month %in% c("10") ~ "Oct",
+       month %in% c("11") ~ "Nov",
+       month %in% c("12") ~ "Dec"),
+    month = factor(month, levels = c(
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")))
 ```
 
 
+## Plots
 
+Scatter plot 
 
+```{r}
+data |> 
+  mutate(text_label = str_c("mean rain: ", mean_prcp, "\n meansnow: ", mean_snow)) |> 
+  plot_ly(
+    x = ~month, y = ~mean_tmin, color = ~year, text = ~text_label,
+    type = "scatter", mode = "markers", alpha = 0.5, colors = "viridis")
+```
 
+Box plot
 
+```{r}
+data |> 
+  plot_ly(y = ~mean_tmax, color = ~year, type = "box", colors = "viridis")
+```
+
+Line plot
+
+```{r}
+data |> 
+  mutate(year = fct_reorder(year, mean_tmax)) |> 
+  plot_ly(y = ~mean_tmax, color = ~year, type = "scatter", mode = "lines", colors = "viridis")
+```
