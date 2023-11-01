@@ -1,16 +1,14 @@
 ---
 title: "Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ## NOAA data
 
-Loading libraries
-
-```{r}
+```{r set up, include=FALSE}
 library(tidyverse)
 library(dplyr)
 library(rnoaa)
@@ -18,8 +16,8 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-Loading data
-```{r}
+```{r data, include=FALSE}
+#loading data
 data = 
   ny_noaa |> 
   drop_na() |> 
@@ -58,25 +56,10 @@ data =
 ```
 
 
-## Plots
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-Scatter plot 
-
-```{r}
-data |> 
-  mutate(
-    text_label = str_c(
-      "mean rain: ", mean_prcp,
-      "\n meansnow: ", mean_snow)) |> 
-  plot_ly(
-    x = ~month, y = ~mean_tmin, color = ~year, text = ~text_label,
-    type = "scatter", mode = "markers", alpha = 0.5, colors = "viridis") |> 
-  layout(title = "Average Mean Minimum Temperatures in New York (2000-2010)",
-         xaxis = list(title = "Months"),
-         yaxis = list (title = "Mean Min Temperature"))
-```
-
-Box plot
+### Chart A
 
 ```{r}
 data |> 
@@ -86,7 +69,26 @@ data |>
          yaxis = list (title = "Mean Max Temperature"))
 ```
 
-Line plot
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+data |> 
+  mutate(
+    text_label = str_c(
+      "mean rain: ", mean_prcp,
+      "\n mean snow: ", mean_snow)) |> 
+  plot_ly(
+    x = ~month, y = ~mean_tmin, color = ~year, text = ~text_label,
+    type = "scatter", mode = "markers", alpha = 0.5, colors = "viridis") |> 
+  layout(title = "Average Mean Minimum Temperatures in New York (2000-2010)",
+         xaxis = list(title = "Months"),
+         yaxis = list (title = "Mean Min Temperature"))
+```
+
+### Chart C
 
 ```{r}
 data |> 
@@ -97,3 +99,6 @@ data |>
          xaxis = list(title = "Year"),
          yaxis = list (title = "Mean Precipitation"))
 ```
+
+
+
