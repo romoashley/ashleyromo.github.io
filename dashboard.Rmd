@@ -17,3 +17,32 @@ library(rnoaa)
 library(p8105.datasets)
 library(plotly)
 ```
+
+Loading data
+```{r}
+data = 
+  ny_noaa |> 
+  drop_na() |> 
+  separate(date, into = c("year", "month", "day"), "-") |> 
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    prcp = as.numeric(prcp),
+    snow = as.numeric(snow)
+  ) |> 
+  filter(year == 2000 | year == 2002 | year == 2004 | 
+           year == 2006 | year == 2008 | year == 2010) |> 
+  group_by(year, month) |> 
+  summarize(
+    mean_prcp = mean(prcp),
+    mean_snow = mean(snow),
+    mean_tmax = mean(tmax),
+    mean_tmin = mean(tmin)
+  )
+```
+
+
+
+
+
+

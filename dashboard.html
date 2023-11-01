@@ -397,6 +397,28 @@ library(plotly)</code></pre>
 ## The following object is masked from &#39;package:graphics&#39;:
 ## 
 ##     layout</code></pre>
+<p>Loading data</p>
+<pre class="r"><code>data = 
+  ny_noaa |&gt; 
+  drop_na() |&gt; 
+  separate(date, into = c(&quot;year&quot;, &quot;month&quot;, &quot;day&quot;), &quot;-&quot;) |&gt; 
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    prcp = as.numeric(prcp),
+    snow = as.numeric(snow)
+  ) |&gt; 
+  filter(year == 2000 | year == 2002 | year == 2004 | 
+           year == 2006 | year == 2008 | year == 2010) |&gt; 
+  group_by(year, month) |&gt; 
+  summarize(
+    mean_prcp = mean(prcp),
+    mean_snow = mean(snow),
+    mean_tmax = mean(tmax),
+    mean_tmin = mean(tmin)
+  )</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;year&#39;. You can override using the
+## `.groups` argument.</code></pre>
 </div>
 
 
