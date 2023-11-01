@@ -64,12 +64,12 @@ Column {data-width=650}
 ```{r}
 data |> 
   plot_ly(y = ~mean_tmax, color = ~year, type = "box", colors = "viridis") |> 
-  layout(title = "Average Mean Maximum Temperatures in New York (2000-2010)",
+  layout(title = "Maximum Temperatures in New York (2000-2010)",
          xaxis = list(title = "Year"),
          yaxis = list (title = "Mean Max Temperature"))
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Chart B
@@ -83,7 +83,7 @@ data |>
   plot_ly(
     x = ~month, y = ~mean_tmin, color = ~year, text = ~text_label,
     type = "scatter", mode = "markers", alpha = 0.5, colors = "viridis") |> 
-  layout(title = "Average Mean Minimum Temperatures in New York (2000-2010)",
+  layout(title = "Minimum Temperatures in New York (2000-2010)",
          xaxis = list(title = "Months"),
          yaxis = list (title = "Mean Min Temperature"))
 ```
@@ -95,7 +95,7 @@ data |>
   mutate(year = fct_reorder(year, mean_prcp)) |> 
   plot_ly(x= ~month, y = ~mean_prcp, color = ~year, type = "scatter",
           mode = "lines", colors = "viridis") |> 
-  layout(title = "Average Precipitation in New York (2000-2010)",
+  layout(title = "Precipitation in New York (2000-2010)",
          xaxis = list(title = "Year"),
          yaxis = list (title = "Mean Precipitation"))
 ```
