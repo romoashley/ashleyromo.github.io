@@ -1,0 +1,19 @@
+---
+title: "Dashboard"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## NOAA data
+
+Loading libraries
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(rnoaa)
+library(p8105.datasets)
+library(plotly)
+```
