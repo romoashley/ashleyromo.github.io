@@ -1,7 +1,7 @@
 name: "Welcome"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Introduction"
   right:
     - text: "Resume"
       href: resume.html
