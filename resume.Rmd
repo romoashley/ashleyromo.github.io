@@ -9,13 +9,24 @@ output:
 ### Education
 **Columbia University, Mailman School of Public Health** (May 2024)
 Master of Public Health in Epidemiology,
-*Applied Biostatistics and Data Science Certificate*	
+*Applied Biostatistics and Public Health Data Science Certificate*	
         
 **University of California, Berkeley** (May 2021)
 Bachelor of Arts,
 *Public Health, Molecular and Cell Biology (Neurobiology)*
 
 ### Work Experience
+**Columbia University Irving Medical Center, Database Shared Resource (DBSR)**
+
+*Clinical Research Coordinator, New York, NY (hybrid)	| (06/2023 - present)*
+
+* Approached 8-12 patients during clinic visits to explain details of study in English and Spanish and consent them to the study
+* Maintained proper documentation of consents, refusals, re-approaches, completed questionnaires, and biospecimen collection in Scissor, Velos, and Qualtrics
+* Assisted with colorectal and gastric cancer data requests by extracting data from the electronic health record (EPIC)
+* Completed a literature review about metabolomics and DNA methylation focused on breast and colorectal cancer survival and ovarian cancer risk
+
+
+
 **UC Davis Health, U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk (U.S. POINTER)**
 
 *Bilingual Assistant Clinical Research Coordinator, Sacramento, CA (hybrid) | (07/2021- 08/2022)*
@@ -30,7 +41,7 @@ Bachelor of Arts,
 
 **Health Career Connection, City Heights Community Development Corporation (CHCDC)**
 
-*Resident Services Intern, San Diego, CA | 06/2018 - 08/2018*
+*Resident Services Intern, San Diego, CA (on-site )| (06/2018 - 08/2018)*
 
 * Selected to participate in summer internship program and placed in Community Development Corporation
 * Created and completed Family Food Security Survey at 3 affordable housing units in English and Spanish
@@ -40,12 +51,21 @@ Bachelor of Arts,
 
 **Su Guo Neuroscience Lab, University of California San Francisco**  
 
-*Stanford STEP UP NIDDK, Research Intern, San Francisco, CA (06/2016 - 08/2016)*
+*Stanford STEP UP NIDDK, Research Intern, San Francisco, CA (on-site) | (06/2016 - 08/2016)*
 
 * Collected data from behavioral experiments to determine whether larval zebrafish could be classically conditioned 
 * Presented a poster and a powerpoint presentation of research project at the Science Symposium at the National Institute of Health in Bethesda, Maryland
 
 ### Volunteer
+
+**Mailman School of Public Health, R.I.S.E. Peer Mentor Program**
+
+*Mentor, New York, NY (hybrid) | (08/2023 - Present)*
+
+* Selected to provide mentorship to a underrepresented first-generation students
+* Provided support to three mentees in their transition to graduate school during monthly one to one meetings
+
+
 
 **Health Leads**
 
@@ -64,13 +84,13 @@ Bachelor of Arts,
 
 **Certificates**
 
-* Mental Health First Aid (2018)
+* CITI Human Subjects Protection Biomed (2023)
+* CITI GCP for Clinical Trials with Investigational Drugs and Medical Devices (U.S. FDA Focus) (2023)
+* CITI FDA-Regulated Research (2023)
 * HIPAA (2023)
 * CITI Social and Behavioral Responsible Conduct of Research (2021)
 * CITI Social and Behavioral Research Best Practices for Clinical Research (2021)
-* CITI Human Subjects Protection Biomed
-* CITI GCP for Clinical Trials with Investigational Drugs and Medical Devices (U.S. FDA Focus)
-* CITI FDA-Regulated Research
+* Mental Health First Aid (2018)
 
 **Databases**
 
@@ -85,7 +105,19 @@ Bachelor of Arts,
 
 * R
 * SAS
-* Python
+* SQL
+
+**Relevant Coursework**
+
+* Advanced Statistical and Computational Methods in Genetics and Genomics
+* Relational Databases and SQL Programming for Research and Data Science
+* Data Science I (R)
+* Data Science II (R)
+* Analysis of Categorical Data
+* Applications of Epidemiologic Research Methods (SAS)
+* Applied Regression I 
+* Applied Regression II
+
 
 **Languages**
 
